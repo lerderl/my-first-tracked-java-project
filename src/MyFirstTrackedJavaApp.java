@@ -58,5 +58,16 @@ public class MyFirstTrackedJavaApp {
         System.out.println("Number of previous owners: " + numberOfVehicleOwners);
         System.out.println("Number of doors: " + numberOfDoors);
         System.out.println("Number of seats: " + numberOfSeats);
+
+//        Conversion
+        System.out.println("---------------------------------");
+        System.out.println("Conversion");
+        short newNumberOfSeats = (short) (numberOfSeats * 2);
+        System.out.println("The values of new number of seats: " + newNumberOfSeats);
+        double newFuelConsumptionCombined = fuelConsumptionCombined * 2;
+        System.out.println("The new value of combined fuel consumption: " + newFuelConsumptionCombined + "l/100km");
+
+        byte newPowerInKilowatts = (byte) powerInKilowatts;
+        System.out.println("The value of the new power: " + newPowerInKilowatts + "kW");
     }
 }
