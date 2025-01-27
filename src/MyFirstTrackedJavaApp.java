@@ -69,9 +69,5 @@ public class MyFirstTrackedJavaApp {
 
     byte newPowerInKilowatts = (byte) powerInKilowatts;
     System.out.println("The value of the new power: " + newPowerInKilowatts + "kW");
-
-//        Object references
-    DodgeChallenger redDodgeChallenger;
-    DodgeChallenger greenDodgeChallenger;
   }
 }
