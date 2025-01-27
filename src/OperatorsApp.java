@@ -51,5 +51,13 @@ public class OperatorsApp {
     System.out.println("Car's price greater than or equals the money in the bank: " + (price >= moneyInTheBank));
     System.out.println("Car's price less than or equals the money in the bank: " + (price <= moneyInTheBank));
     System.out.println("The carName variable datatype is String: " + (carName instanceof String));
+    System.out.println();
+
+//    Ternary Operators
+    System.out.println("EQUALITY AND RELATIONAL OPERATORS");
+    System.out.println("-------------------------------------------");
+    String damagedOrNot = isDamaged ? "Damaged" : "Not damaged";
+    System.out.println("Is the car damaged? " + damagedOrNot);
+    System.out.println();
   }
 }
