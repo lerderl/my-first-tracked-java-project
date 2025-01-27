@@ -26,7 +26,7 @@ public class OperatorsApp {
 //    Unary operators
     System.out.println();
     System.out.println("UNARY OPERATORS");
-    System.out.println("---------------------");
+    System.out.println("--------------------------------------------");
 
     int priceNegative = -price;
     System.out.println("Negative price of a " + carName + " with plus sign: $" + priceNegative);
@@ -40,5 +40,16 @@ public class OperatorsApp {
 
     System.out.println("Damaged?: " + !isDamaged);
     System.out.println();
+
+//    Equality and Relational Operators
+    System.out.println("EQUALITY AND RELATIONAL OPERATORS");
+    System.out.println("-------------------------------------------");
+    System.out.println("Car's price equals the money in the bank: " + (price == moneyInTheBank));
+    System.out.println("Car's price doesn't equal the money in the bank: " + (price != moneyInTheBank));
+    System.out.println("Car's price greater than the money in the bank: " + (price > moneyInTheBank));
+    System.out.println("Car's price less than the money in the bank: " + (price < moneyInTheBank));
+    System.out.println("Car's price greater than or equals the money in the bank: " + (price >= moneyInTheBank));
+    System.out.println("Car's price less than or equals the money in the bank: " + (price <= moneyInTheBank));
+    System.out.println("The carName variable datatype is String: " + (carName instanceof String));
   }
 }
