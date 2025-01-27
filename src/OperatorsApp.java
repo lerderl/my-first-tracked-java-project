@@ -68,5 +68,19 @@ public class OperatorsApp {
     String notWorthRepairing = isDamaged && price <= 10000 ? "Worth checking" : "Not worth repairing";
     System.out.println("Is the car worth repairing? " + notWorthRepairing);
     System.out.println();
+
+//    Assignment Operators
+    System.out.println("ASSIGNMENT OPERATORS");
+    System.out.println("-------------------------------------------");
+    price += 1000;
+    System.out.println("Price of a " + carName + " after adding 1000: $" + price);
+    price -= 1000;
+    System.out.println("Price of a " + carName + " after subtracting 1000: $" + price);
+    price *= 2;
+    System.out.println("Price of a " + carName + " after multiplying by 2: $" + price);
+    price /= 2;
+    System.out.println("Price of a " + carName + " after dividing by 2: $" + price);
+    price %= 2;
+    System.out.println("Price of a " + carName + " after dividing by 2 and getting the remainder: $" + price);
   }
 }
