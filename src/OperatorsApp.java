@@ -54,10 +54,19 @@ public class OperatorsApp {
     System.out.println();
 
 //    Ternary Operators
-    System.out.println("EQUALITY AND RELATIONAL OPERATORS");
+    System.out.println("TERNARY OPERATORS");
     System.out.println("-------------------------------------------");
     String damagedOrNot = isDamaged ? "Damaged" : "Not damaged";
     System.out.println("Is the car damaged? " + damagedOrNot);
+    System.out.println();
+
+//    Logical Operators
+    System.out.println("LOGICAL OPERATORS");
+    System.out.println("-------------------------------------------");
+    String worthChecking = !isDamaged || price >= 10000 ? "Worth checking" : "Not worth checking";
+    System.out.println("Is the car worth checking? " + worthChecking);
+    String notWorthRepairing = isDamaged && price <= 10000 ? "Worth checking" : "Not worth repairing";
+    System.out.println("Is the car worth repairing? " + notWorthRepairing);
     System.out.println();
   }
 }
