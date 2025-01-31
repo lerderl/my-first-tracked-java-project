@@ -28,5 +28,14 @@ public class ControlFlowApp {
       default:
         System.out.println("High energy consumption");
     }
+
+//    Code Block intro
+    {
+      int numberOfWheels = 4;
+      {
+        numberOfWheels++;
+      }
+      System.out.println("Value of numberOfWheels: " + numberOfWheels);
+    }
   }
 }
