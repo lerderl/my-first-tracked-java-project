@@ -1,3 +1,5 @@
+package com.beginner;
+
 public class WhoWantsToBeAMillionaireApp {
   public static void main(String[] args) {
     String question = "Who is named as the father of the light bulb?";

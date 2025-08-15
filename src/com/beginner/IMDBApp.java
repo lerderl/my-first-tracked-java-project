@@ -1,3 +1,5 @@
+package com.beginner;
+
 import java.util.Arrays;
 
 public class IMDBApp {

@@ -1,3 +1,5 @@
+package com.beginner;
+
 public class LoopsApp {
   public static void main(String[] args) {
 //    WHILE loop

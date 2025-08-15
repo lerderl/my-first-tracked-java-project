@@ -1,3 +1,5 @@
+package com.beginner;
+
 public class OperatorsApp {
   public static void main(String[] args) {
 //    Arithmetic Operators

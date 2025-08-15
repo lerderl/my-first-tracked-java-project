@@ -1,3 +1,5 @@
+package com.beginner;
+
 public class EnergyConsumptionLevel {
   public static void main(String[] args) {
     System.out.println(getEnergyConsumptionLevel('A'));

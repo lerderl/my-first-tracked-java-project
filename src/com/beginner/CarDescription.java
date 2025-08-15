@@ -1,3 +1,5 @@
+package com.beginner;
+
 public class CarDescription {
   public static void main(String[] args) {
     System.out.println(getCarDescription("BMW", 2020, "good"));
